@@ -27,6 +27,7 @@ See [AGENTS.md](AGENTS.md) for detailed generation guidelines.
 ## Inspire
 
 - https://github.com/antfu/skills
+- https://github.com/pbakaus/impeccable
 - https://code.claude.com/docs/zh-CN
 
 ## License
