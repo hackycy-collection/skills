@@ -4,8 +4,7 @@
   "packageManager": "pnpm@10.33.0",
   "scripts": {
     "lint": "eslint .",
-    "start": "node scripts/cli.ts",
-    "prepare": "simple-git-hooks && git submodule update --init --recursive"
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.2",
