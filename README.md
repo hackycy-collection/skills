@@ -1,6 +1,6 @@
 # Hackycy's Skills
 
-Preferences skills
+Preferences agent skills
 
 ## Installation
 
@@ -27,3 +27,8 @@ See [AGENTS.md](AGENTS.md) for detailed generation guidelines.
 ## Inspire
 
 - https://github.com/antfu/skills
+- https://code.claude.com/docs/zh-CN
+
+## License
+
+[MIT](./LICENSE) License © [hackycy](https://github.com/hackycy)
