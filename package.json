@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node scripts/cli.ts",
+    "prepare": "simple-git-hooks && git submodule update --init --recursive"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^7.7.2",
+    "@clack/prompts": "^1.1.0",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.0.3",
+    "lint-staged": "^16.3.3",
+    "simple-git-hooks": "^2.13.1",
+    "typescript": "^5.9.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,mjs,mts}": "eslint --fix"
+  }
+}
