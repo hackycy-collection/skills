@@ -14,7 +14,6 @@ Learn more about the CLI usage at [skills](https://github.com/vercel-labs/skills
 
 - https://github.com/antfu/skills
 - https://github.com/pbakaus/impeccable
-- https://code.claude.com/docs/zh-CN
 
 ## License
 
